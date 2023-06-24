@@ -77,7 +77,7 @@ int print_S(va_list ap, params_type *params);
 
 /* number.c module */
 char *convert(long int num, int base, int flag, params_type *params);
-int print_unsigned(va_list ap, params_type *params);
+int print_unsd(va_list ap, params_type *params);
 int print_address(va_list ap, params_type *params);
 
 /* specifier.c module */
@@ -99,7 +99,7 @@ int print_rev(va_list ap, params_type *params);
 int print_rot13(va_list ap, params_type *params);
 
 /* print_number.c module */
-int _isdigit(int i);
+int _isdigit(int d);
 int _strlen(char *s);
 int print_number(char *str, params_type *params);
 int print_num_right_shift(char *str, params_type *params);
