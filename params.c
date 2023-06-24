@@ -21,6 +21,6 @@ void init_params(params_type *params, va_list ap)
 	params->precision = UNIT_MAX;
 
 	params->h_mod = 0;
-	params->l.mod = 0;
+	params->l_mod = 0;
 	(void)ap;
 }

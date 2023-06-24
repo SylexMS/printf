@@ -109,7 +109,7 @@ int get_mod(char *s, params_type *params)
 			i = params->h_mod = 1;
 			break;
 		case 'l':
-			i = params->l.mod = 1;
+			i = params->l_mod = 1;
 			break;
 	}
 	return (i);

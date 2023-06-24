@@ -45,13 +45,13 @@ char *convert(long int num, int base, int flag, params_type *params)
  * Return: bytes printed
 */
 
-int print_unsd(va_list ap, params_type *params)
+int print_usnd(va_list ap, params_type *params)
 {
 	unsigned long 1;
 
-	if (params->l.mod)
+	if (params->l_mod)
 		1 = (unsigned long)va_arg(ap, unsigned int);
-	else if (params->h.mod)
+	else if (params->h_mod)
 		1 = (unsigned short int)va_arg(ap, unsigned int);
 	else
 		1 = (unsigned int)va_arg(ap, unsigned int);

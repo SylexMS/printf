@@ -78,7 +78,7 @@ int print_num_right_shift(char *str, params_type *params)
 	else
 		ngt = 0;
 	if (!params->plus_flag && !ngt2 || (!params->plus_flag &&
-				params->space_fllag && !ngt2))
+				params->space_flag && !ngt2))
 		i++;
 	if (ngt && pad == '0')
 		n += _putchar('-');

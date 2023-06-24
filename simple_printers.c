@@ -65,7 +65,7 @@ int print_rot13(va_list ap, params_type *params)
 	index = 0;
 	while (c[i])
 	{
-		if ((c[i] >= 'A' && c[i] <= 'z') || (c[i] >= 'a' && c[i] <= 'z'))
+		if ((c[i] >= 'A' && c[i] <= 'Z') || (c[i] >= 'a' && c[i] <= 'z'))
 		{
 			index = c[i] - 65;
 			count += _putchar(arr[index]);
